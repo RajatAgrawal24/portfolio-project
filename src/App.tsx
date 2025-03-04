@@ -15,7 +15,8 @@ import {
   Wrench, 
   // MessageSquare,
   ChevronUp,
-  Loader2
+  Loader2,
+  Twitter
 } from 'lucide-react';
 
 function App() {
@@ -99,7 +100,7 @@ function App() {
             <h1 className="text-4xl md:text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
               RAJAT AGRAWAL
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-gray-300">Full Stack Developer</p>
+            <p className="text-xl md:text-2xl mb-8 text-gray-300">Full Stack Web Developer</p>
             <div className="flex justify-center space-x-4 mb-8">
               <a href="mailto:rag7731@gmail.com" className="bg-gray-800 hover:bg-gray-700 p-3 rounded-full transition-all duration-300 hover:shadow-glow-purple">
                 <Mail className="h-6 w-6" />
@@ -107,14 +108,17 @@ function App() {
               <a href="tel:+916265177162" className="bg-gray-800 hover:bg-gray-700 p-3 rounded-full transition-all duration-300 hover:shadow-glow-purple">
                 <Phone className="h-6 w-6" />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="bg-gray-800 hover:bg-gray-700 p-3 rounded-full transition-all duration-300 hover:shadow-glow-purple">
+              <a href="https://www.linkedin.com/in/rajatagrawal24" target="_blank" rel="noopener noreferrer" className="bg-gray-800 hover:bg-gray-700 p-3 rounded-full transition-all duration-300 hover:shadow-glow-purple">
                 <Linkedin className="h-6 w-6" />
               </a>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="bg-gray-800 hover:bg-gray-700 p-3 rounded-full transition-all duration-300 hover:shadow-glow-purple">
+              <a href="https://github.com/RajatAgrawal24" target="_blank" rel="noopener noreferrer" className="bg-gray-800 hover:bg-gray-700 p-3 rounded-full transition-all duration-300 hover:shadow-glow-purple">
                 <Github className="h-6 w-6" />
               </a>
-              <a href="https://leetcode.com" target="_blank" rel="noopener noreferrer" className="bg-gray-800 hover:bg-gray-700 p-3 rounded-full transition-all duration-300 hover:shadow-glow-purple">
+              <a href="https://leetcode.com/u/Rajat_24/" target="_blank" rel="noopener noreferrer" className="bg-gray-800 hover:bg-gray-700 p-3 rounded-full transition-all duration-300 hover:shadow-glow-purple">
                 <Code2 className="h-6 w-6" />
+              </a>
+              <a href="https://x.com/rajatagrawal24" target="_blank" rel="noopener noreferrer" className="bg-gray-800 hover:bg-gray-700 p-3 rounded-full transition-all duration-300 hover:shadow-glow-purple">
+                <Twitter className="h-6 w-6" />
               </a>
             </div>
           </div>
@@ -163,8 +167,8 @@ function App() {
                   </li>
                 </ul>
                 <div className="flex space-x-4 mt-4">
-                  <a href="#" className="text-purple-400 hover:text-purple-300 transition-colors">Live Demo</a>
-                  <a href="#" className="text-purple-400 hover:text-purple-300 transition-colors">Github</a>
+                  <a href="https://jewellershop.netlify.app/" className="text-purple-400 hover:text-purple-300 transition-colors">Live Demo</a>
+                  <a href="https://github.com/RajatAgrawal24/Ecommerce" className="text-purple-400 hover:text-purple-300 transition-colors">Github</a>
                 </div>
               </div>
             </div>
@@ -189,8 +193,8 @@ function App() {
                   </li>
                 </ul>
                 <div className="flex space-x-4 mt-4">
-                  <a href="#" className="text-purple-400 hover:text-purple-300 transition-colors">Live Demo</a>
-                  <a href="#" className="text-purple-400 hover:text-purple-300 transition-colors">Github</a>
+                  <a href="https://admissionportal-9uix.onrender.com/" className="text-purple-400 hover:text-purple-300 transition-colors">Live Demo</a>
+                  <a href="https://github.com/RajatAgrawal24/New-Portal" className="text-purple-400 hover:text-purple-300 transition-colors">Github</a>
                 </div>
               </div>
             </div>
@@ -421,14 +425,20 @@ function App() {
                   </div>
                   <div className="flex items-center">
                     <Linkedin className="h-5 w-5 text-purple-400 mr-3" />
-                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-purple-400 transition-colors">
+                    <a href="https://www.linkedin.com/in/rajatagrawal24" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-purple-400 transition-colors">
                       LinkedIn Profile
                     </a>
                   </div>
                   <div className="flex items-center">
                     <Github className="h-5 w-5 text-purple-400 mr-3" />
-                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-purple-400 transition-colors">
+                    <a href="https://github.com/RajatAgrawal24" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-purple-400 transition-colors">
                       Github Profile
+                    </a>
+                  </div>
+                  <div className="flex items-center">
+                    <Twitter className="h-5 w-5 text-purple-400 mr-3" />
+                    <a href="https://x.com/rajatagrawal24" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-purple-400 transition-colors">
+                      Twitter Profile
                     </a>
                   </div>
                 </div>
